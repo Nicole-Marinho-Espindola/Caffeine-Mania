@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Unica+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --lightpink:#F5DAD9;
+    --lightpurple: #998FD0;
+    --purplebtn:#8077af;
+    --vanila:#F2F0EB;
+    --darkpurple:#4F42A7;
+    --footerpurple: #3B3082;
+    --darkpink: #B9004E;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--lightpink);
+    height: 60px;
+}
+
+.logo{
+    height: 50px;
+    margin-right: 60em;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--darkpurple);
+    margin-right: 20px;
+}
+
+.signin{
+    cursor: pointer;
+    color: var(--footerpurple);
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 40px;
+    width: 7em;
+    background-color: var(--lightpurple);
+    color: var(--vanila);
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: var(--purplebtn);
+    cursor: pointer;
+}
+
+.sub-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lightpurple);
+    width: 100%;
+    height: 30px;
+}
+
+.link-section{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color: var(--vanila);
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+
+.link:hover{
+    color: var(--lightpink);
+}
