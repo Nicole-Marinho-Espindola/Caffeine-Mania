@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --lightpink:#F5DAD9;
+    --lightpurple: #998FD0;
+    --purplebtn:#8077af;
+    --vanila:#F2F0EB;
+    --darkpurple:#4F42A7;
+    --footerpurple: #3B3082;
+    --darkpink: #B9004E;
+    --lightgrey:#B3B3B3;
+    --whitepurple: #f9f1ff;
+    --brown:#1E1E1E;
+}
+
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--vanila)  !important;
+    align-items: center;
+    justify-content: center;
+    height: 35em;
+}
+
+.email{
+    height: 25em;
+    width: 40em;
+    margin: 20px 0 20px 7em;
+    border: 1px solid var(--lightpurple);
+    border-radius: 5px;
+    /* padding: 15px; */
+    font-family: 'Inter', sans-serif;;
+    background-color: var(--whitepurple);
+}
+
+.nav-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--lightpink);
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightgrey);
+    height: 30px;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid var(--lightpurple);
+}
+
+.new-msg{
+    margin-right: 35em;
+}
+
+.btn-size{
+    height: 20px;
+    width: 5em;
+    font-size: 10px;
+}
+
+.email-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.underline-block{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 20px;
+    width: 90%;
+    border-bottom:1px solid var(--lightgrey);
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
+.grey-text{
+    font-size: small;
+    font-weight: bold;
+    color: var(--lightgrey);
+}
+
+.purple-text{
+    color: var(--lightpurple);
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.email-body{
+    margin: 25px 30px 39px 30px;
+    display: flex;
+    flex-direction: column;
+    color: var(--brown);
+}
+
+.main-info{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bye-msg{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-size: small;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.email-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--lightpink);
+    height: 35px;
+    border-top: 1px solid var(--lightpurple);
+}
+
+.email-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27em;
+}
+
+.logo-email{
+    height: 30px;
+}
+
+.cat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-size{
+    height: 35em;
+}
+
+.meet-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 7em;
+}
+
+.main-title{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    margin: 0 0 60px 20em;
+    width: 100%;
+    font-size: 20px;
+}
+
+.title{
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    height: 7em;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+    margin: 25px 20px;
+}
+
+.child-pink{
+    background-color: var(--lightpink);
+    border-radius: 5px;
+    border: 1px solid var(--darkpurple);
+}
+
+.child-purple{
+    background-color: var(--lightpurple);
+    border-radius: 5px;
+    border: 1px solid var(--darkpink);
+}
+
+.child:hover{
+    transform: scale(1.08);
+}
+
+/* @media screen (min-width: 320px and max-width: 768px){
+    .about-us{
+        display: flex;
+        flex-direction: column;
+    };
+
+    .email{
+        width: 20em;
+    };
+
+  
+} */
