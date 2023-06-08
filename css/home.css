@@ -15,6 +15,7 @@
     --lightgrey:#B3B3B3;
     --whitepurple: #f9f1ff;
     --brown:#1E1E1E;
+    --white:#fff;
 }
 
 .about-us{
@@ -23,7 +24,7 @@
     background-color: var(--vanila)  !important;
     align-items: center;
     justify-content: center;
-    height: 35em;
+    height: 40em;
 }
 
 .email{
@@ -33,7 +34,7 @@
     border: 1px solid var(--lightpurple);
     border-radius: 5px;
     /* padding: 15px; */
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
     background-color: var(--whitepurple);
 }
 
@@ -107,6 +108,7 @@
     font-size: 16px;
     font-weight: bold;
     text-align: justify;
+    outline: none;
 }
 
 .bye-msg{
@@ -158,7 +160,7 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin-top: 7em;
+    margin: 7em 0;
 }
 
 .main-title{
@@ -210,6 +212,98 @@
 
 .child:hover{
     transform: scale(1.08);
+}
+
+.discover-header{
+    display:flex ;
+    flex-direction: row;
+    width: 100%;
+    margin: 7em 0 0 12em ;
+}
+
+.discover{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--vanila);
+    width: 100%;
+    height: 45em;
+}
+
+.logo-disc{
+    height: 60px;
+}
+
+.title-disc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.subtitle-disc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.discorver-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.card-boba{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--white);
+    margin: 5em 5em;
+    height: 25em;
+    width: 17em;
+    border-radius: 5px;
+    border: 1px solid var(--darkpink);
+}
+
+.head-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkpink);
+    color: var(--vanila);
+    width: 100%;
+    margin-bottom: 13em;
+    height: 35px;
+    /* border-radius: 5px; */
+    font-size: small;
+}
+
+.img-boba{
+    position: absolute;
+}
+
+.pink-block{
+    background-color: var(--lightpink);
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid var(--darkpink);
+}
+
+.pink-position{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 10em;
+    width: 100%;
+}
+
+.margin-right{
+    margin-right: 30px;
 }
 
 /* @media screen (min-width: 320px and max-width: 768px){

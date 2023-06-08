@@ -2,23 +2,6 @@
     include_once('header.html');
 ?>
 
-<head>
-    <script
-    src="https://kit.fontawesome.com/e02aa7a64f.js"
-    crossorigin="anonymous"
-  ></script>
-  <link
-    rel="stylesheet"
-    href="https://fontawesome.com/icons/basket-shopping?f=classic&s=solid"
-  />
-  <link
-    rel="stylesheet"
-    href="https://fontawesome.com/icons/magnifying-glass?f=classic&s=solid"
-  />
-  <link rel="stylesheet" href="./css/header.css" />
-  <link rel="stylesheet" href="./css/home.css">
-</head>
-
 <section class="about-us">
     <div class="email">
         <div class="nav-header">
@@ -38,7 +21,7 @@
             </div>
         </div>
         <div class="email-body">
-            <span class="main-info">
+            <span contenteditable="true" class="main-info">
                 We at CAFFEINE MANIA value the quality, technology and flavor of our drinks
                 and that is why we have serious and committed partnerships to offer the best
                 of experiences to our consumers.
@@ -117,6 +100,47 @@
                 R. DR. JOÃO RIBEIRO, 304
                 SÃO PAULO
             </span>
+        </div>
+    </div>
+</section>
+<section class="discover">
+    <div class="discover-header">
+        <img class="logo-disc" src="./img/logo-icon-sem fundo.png" alt="">
+        <div class="title-block">
+            <span class="subtitle-disc">time to drink </span>
+            <h1 class="title-disc">Discover our boba</h1>
+        </div>
+    </div>
+    <div class="discorver-main">
+        <div class="card-boba">
+            <span class="head-card">time to be happy</span>
+            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <div class="pink-block">
+                <div class="pink-position">
+                    <p class="margin-right">Sweet Boba tea 700ml</p>
+                    <i class="fa-regular fa-heart" style="color: #B9004E;" id="heart" onclick="heartToggle()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card-boba">
+            <span class="head-card">time to be happy</span>
+            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <div class="pink-block">
+                <div class="pink-position">
+                    <p class="margin-right">Sweet Boba tea 700ml</p>
+                    <i class="fa-regular fa-heart" style="color: #B9004E;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="card-boba">
+            <span class="head-card">time to be happy</span>
+            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <div class="pink-block">
+                <div class="pink-position">
+                    <p class="margin-right">Sweet Boba tea 700ml</p>
+                    <i class="fa-regular fa-heart" style="color: #B9004E;"></i>
+                </div>
+            </div>
         </div>
     </div>
 </section>
