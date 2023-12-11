@@ -1,21 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Unica+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --lightpink:#F5DAD9;
-    --lightpurple: #998FD0;
-    --purplebtn:#8077af;
-    --vanila:#F2F0EB;
-    --darkpurple:#4F42A7;
-    --footerpurple: #3B3082;
-    --darkpink: #B9004E;
-}
 
 .navbar{
     display: flex;
@@ -59,22 +41,6 @@
     color: var(--footerpurple);
 }
 
-.btn{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    height: 40px;
-    width: 7em;
-    background-color: var(--lightpurple);
-    color: var(--vanila);
-    border-radius: 5px;
-    border: none;
-}
-
-.btn:hover{
-    background-color: var(--purplebtn);
-    cursor: pointer;
-}
-
 .sub-navbar{
     display: flex;
     align-items: center;
@@ -104,26 +70,3 @@
     color: var(--lightpink);
 }
 
-/* @media(min-width: 768px){
-    .header{
-        width: 100%;
-    }
-    .navbar{
-        width: 100%;
-    }
-
-    .main-navbar{
-        width: 100%;
-        height:45px ;
-    }
-
-    .logo{
-        height: 30px;
-        margin-right: 20px;
-    }
-
-    .btn{
-        height: 20px;
-        width: 50px;
-    }
-} */

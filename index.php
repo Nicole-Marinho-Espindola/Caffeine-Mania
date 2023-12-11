@@ -1,5 +1,6 @@
 <?php
-    include_once('header.html');
+include_once('./views/includes/head.php');
+include_once('./views/includes/nav.php');
 ?>
 
 <section class="about-us">
@@ -35,18 +36,27 @@
             <button class="btn btn-size">Send</button>
             <div class="email-logo">
                 <span class="purple-text">catmail</span>
-                <img class="logo-email" src="./img/logo-icon-sem fundo.png" alt="">
+                <img class="logo-email" src="<?= baseUrl('/assets/img/logo-icon-sem fundo.png') ?>" alt="">
             </div>
         </div>
     </div>
     <div class="cat">
-        <img class="cat-size"src="./img/cat-boba.png" alt="Cat drinking bubble tea">
+        <img class="cat-size" src="<?= baseUrl('/assets/img/cat-boba.png') ?>" alt="Cat drinking bubble tea">
     </div>
 </section>
 <section class="meet-us">
     <div class="main-title">
-        <h1 class="title">meet us in our stores</h1>
-        <i class="fa-solid fa-right-long" style="color: #B9004E;"></i>
+        
+    </div>
+    <div class="main-title">
+        <img class="logo-disc" src="<?= baseUrl('/assets/img/logo-icon-sem fundo.png') ?>" alt="">
+        <div class="">
+            <span class="subtitle-disc">find us anywhere </span>
+            <div class="teste">
+                <h1 class="title">Meet us in our stores</h1>
+                <i class="fa-solid fa-right-long" style="color: #B9004E;"></i>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="child child-purple">
@@ -104,17 +114,20 @@
     </div>
 </section>
 <section class="discover">
-    <div class="discover-header">
-        <img class="logo-disc" src="./img/logo-icon-sem fundo.png" alt="">
-        <div class="title-block">
+<div class="main-title">
+        <img class="logo-disc" src="<?= baseUrl('/assets/img/logo-icon-sem fundo.png') ?>" alt="">
+        <div class="">
             <span class="subtitle-disc">time to drink </span>
-            <h1 class="title-disc">Discover our boba</h1>
+            <div class="teste">
+                <h1 class="title">Discover our Boba</h1>
+                <i class="fa-solid fa-right-long" style="color: #B9004E;"></i>
+            </div>
         </div>
     </div>
     <div class="discorver-main">
         <div class="card-boba">
             <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
             <div class="pink-block">
                 <div class="pink-position">
                     <p class="margin-right">Sweet Boba tea 700ml</p>
@@ -124,7 +137,7 @@
         </div>
         <div class="card-boba">
             <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
             <div class="pink-block">
                 <div class="pink-position">
                     <p class="margin-right">Sweet Boba tea 700ml</p>
@@ -134,7 +147,7 @@
         </div>
         <div class="card-boba">
             <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="./img/boba-3.png" alt="bubble tea">
+            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
             <div class="pink-block">
                 <div class="pink-position">
                     <p class="margin-right">Sweet Boba tea 700ml</p>
@@ -145,4 +158,5 @@
     </div>
 </section>
 </body>
+
 </html>

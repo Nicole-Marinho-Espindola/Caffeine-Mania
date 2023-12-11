@@ -1,0 +1,36 @@
+/* Navbar Responsive */
+
+@media screen and (min-width: 768px){
+    .header{
+        width: 100%;
+    }
+    .navbar{
+        width: 100%;
+    }
+
+    .main-navbar{
+        width: 100%;
+        height:45px ;
+    }
+
+    .logo{
+        height: 30px;
+        margin-right: 20px;
+    }
+
+}
+
+/* Home Responsive */
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .about-us{
+        display: flex;
+        flex-direction: column;
+    };
+
+    .email{
+        width: 20em;
+    };
+
+  
+}

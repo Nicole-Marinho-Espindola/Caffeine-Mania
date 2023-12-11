@@ -1,27 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root{
-    --lightpink:#F5DAD9;
-    --lightpurple: #998FD0;
-    --purplebtn:#8077af;
-    --vanila:#F2F0EB;
-    --darkpurple:#4F42A7;
-    --footerpurple: #3B3082;
-    --darkpink: #B9004E;
-    --lightgrey:#B3B3B3;
-    --whitepurple: #f9f1ff;
-    --brown:#1E1E1E;
-    --white:#fff;
-}
 
 .about-us{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: var(--vanila)  !important;
+    background-color: var(--vanila);
     align-items: center;
     justify-content: center;
     height: 40em;
@@ -44,7 +25,6 @@
     align-items: center;
     flex-direction: row;
     background-color: var(--lightpink);
-    font-family: 'Poppins', sans-serif;
     font-size: small;
     font-weight: bold;
     color: var(--lightgrey);
@@ -56,12 +36,6 @@
 
 .new-msg{
     margin-right: 35em;
-}
-
-.btn-size{
-    height: 20px;
-    width: 5em;
-    font-size: 10px;
 }
 
 .email-info{
@@ -158,19 +132,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    margin: 7em 0;
+    margin: 1em 0;
 }
 
 .main-title{
     display: flex;
-    /* justify-content: center; */
+    justify-content: left;
     align-items: center;
     flex-direction: row;
-    margin: 0 0 60px 20em;
+    margin: 30px 0;
     width: 100%;
     font-size: 20px;
+    padding-left: 8em;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .title{
@@ -218,7 +199,7 @@
     display:flex ;
     flex-direction: row;
     width: 100%;
-    margin: 7em 0 0 12em ;
+    /* margin: 7em 0 0 12em ; */
 }
 
 .discover{
@@ -228,7 +209,6 @@
     flex-direction: column;
     width: 100%;
     background-color: var(--vanila);
-    width: 100%;
     height: 45em;
 }
 
@@ -237,13 +217,11 @@
 }
 
 .title-disc{
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 25px;
 }
 
 .subtitle-disc{
-    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     font-size: medium;
 }
@@ -252,7 +230,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     flex-wrap: wrap;
 }
@@ -306,15 +283,3 @@
     margin-right: 30px;
 }
 
-/* @media screen (min-width: 320px and max-width: 768px){
-    .about-us{
-        display: flex;
-        flex-direction: column;
-    };
-
-    .email{
-        width: 20em;
-    };
-
-  
-} */

@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --lightpink:#F5DAD9;
+    --lightpurple: #998FD0;
+    --purplebtn:#8077af;
+    --vanila:#F2F0EB;
+    --darkpurple:#4F42A7;
+    --footerpurple: #3B3082;
+    --darkpink: #B9004E;
+    --lightgrey:#B3B3B3;
+    --whitepurple: #f9f1ff;
+    --brown:#1E1E1E;
+    --white:#fff;
+}

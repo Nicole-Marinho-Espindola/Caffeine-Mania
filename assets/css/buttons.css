@@ -1,0 +1,20 @@
+.btn{
+    font-weight: bold;
+    height: 30px;
+    width: 6em;
+    background-color: var(--lightpurple);
+    color: var(--vanila);
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: var(--purplebtn);
+    cursor: pointer;
+}
+
+.btn-size{
+    height: 20px;
+    width: 5em;
+    font-size: 10px;
+}
