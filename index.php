@@ -46,13 +46,10 @@ include_once('./views/includes/nav.php');
 </section>
 <section class="meet-us">
     <div class="main-title">
-        
-    </div>
-    <div class="main-title">
         <img class="logo-disc" src="<?= baseUrl('/assets/img/logo-icon-sem fundo.png') ?>" alt="">
         <div class="">
             <span class="subtitle-disc">find us anywhere </span>
-            <div class="teste">
+            <div class="title-block">
                 <h1 class="title">Meet us in our stores</h1>
                 <i class="fa-solid fa-right-long" style="color: #B9004E;"></i>
             </div>
@@ -114,49 +111,67 @@ include_once('./views/includes/nav.php');
     </div>
 </section>
 <section class="discover">
-<div class="main-title">
+    <div class="main-title">
         <img class="logo-disc" src="<?= baseUrl('/assets/img/logo-icon-sem fundo.png') ?>" alt="">
         <div class="">
             <span class="subtitle-disc">time to drink </span>
-            <div class="teste">
-                <h1 class="title">Discover our Boba</h1>
+            <div class="title-block">
+                <h1 class="title">Have a free Boba in your B-day</h1>
                 <i class="fa-solid fa-right-long" style="color: #B9004E;"></i>
             </div>
         </div>
     </div>
-    <div class="discorver-main">
-        <div class="card-boba">
-            <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
-            <div class="pink-block">
-                <div class="pink-position">
-                    <p class="margin-right">Sweet Boba tea 700ml</p>
-                    <i class="fa-regular fa-heart" style="color: #B9004E;" id="heart" onclick="heartToggle()"></i>
-                </div>
+    <div class="steps-block">
+        <div class="step">
+            <div class="step-header">
+                <span class="step-title">
+                    Step 1
+                </span>
+            </div>
+            <div class="step-body">
+                <p class="step-text">
+                    make a account in our website, it´s pretty easy
+                </p>
             </div>
         </div>
-        <div class="card-boba">
-            <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
-            <div class="pink-block">
-                <div class="pink-position">
-                    <p class="margin-right">Sweet Boba tea 700ml</p>
-                    <i class="fa-regular fa-heart" style="color: #B9004E;"></i>
-                </div>
+        <div class="step">
+            <div class="step-header">
+                <span class="step-title">
+                    Step 2
+                </span>
+            </div>
+            <div class="step-body">
+                <p class="step-text">
+                    make a account in our website, it´s pretty easy
+                </p>
             </div>
         </div>
-        <div class="card-boba">
-            <span class="head-card">time to be happy</span>
-            <img class="img-boba" src="<?= baseUrl('/assets/img/boba-3.png') ?>" alt="bubble tea">
-            <div class="pink-block">
-                <div class="pink-position">
-                    <p class="margin-right">Sweet Boba tea 700ml</p>
-                    <i class="fa-regular fa-heart" style="color: #B9004E;"></i>
-                </div>
+        <div class="step">
+            <div class="step-header">
+                <span class="step-title">
+                    Step 3
+                </span>
+            </div>
+            <div class="step-body">
+                <p class="step-text">
+                    make a account in our website, it´s pretty easy
+                </p>
+            </div>
+        </div>
+        <div class="step">
+            <div class="step-header">
+                <span class="step-title">
+                    Step 4
+                </span>
+            </div>
+            <div class="step-body">
+                <p class="step-text">
+                    make a account in our website, it´s pretty easy
+                </p>
             </div>
         </div>
     </div>
-</section>
+</section> 
 </body>
 
 </html>

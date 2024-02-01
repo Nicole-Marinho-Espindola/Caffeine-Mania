@@ -145,9 +145,10 @@
     width: 100%;
     font-size: 20px;
     padding-left: 8em;
+    margin-top: 4em;
 }
 
-.teste{
+.title-block{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,6 +157,7 @@
 
 .title{
     margin-right: 15px;
+    font-weight: bolder;
 }
 
 .container{
@@ -182,13 +184,11 @@
 .child-pink{
     background-color: var(--lightpink);
     border-radius: 5px;
-    border: 1px solid var(--darkpurple);
 }
 
 .child-purple{
     background-color: var(--lightpurple);
     border-radius: 5px;
-    border: 1px solid var(--darkpink);
 }
 
 .child:hover{
@@ -200,6 +200,7 @@
     flex-direction: row;
     width: 100%;
     /* margin: 7em 0 0 12em ; */
+    margin-top: 5em;
 }
 
 .discover{
@@ -209,7 +210,8 @@
     flex-direction: column;
     width: 100%;
     background-color: var(--vanila);
-    height: 45em;
+    height: 46.5em;
+    margin-top: 7em;
 }
 
 .logo-disc{

@@ -9,15 +9,17 @@
 }
 
 :root{
-    --lightpink:#F5DAD9;
-    --lightpurple: #998FD0;
-    --purplebtn:#8077af;
-    --vanila:#F2F0EB;
-    --darkpurple:#4F42A7;
-    --footerpurple: #3B3082;
     --darkpink: #B9004E;
+    --mediumpink: #FFC7C5;
+    --lightpink:#F5DAD9;
+    --footerpurple: #3B3082;
+    --darkpurple:#4F42A7;
+    --purplebtn:#8077af;
+    --lightpurple: #998FD0;
+    --brown:#1E1E1E;
     --lightgrey:#B3B3B3;
     --whitepurple: #f9f1ff;
-    --brown:#1E1E1E;
+    --vanila:#F2F0EB;
     --white:#fff;
 }
+
