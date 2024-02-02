@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="<?= baseUrl('/assets/css/buttons.css')?>" />
     <link rel="stylesheet" href="<?= baseUrl('/assets/css/responsive.css')?>" />
     <link rel="stylesheet" href="<?= baseUrl('/assets/css/header.css')?>" />
+    <link rel="stylesheet" href="<?= baseUrl('/assets/css/footer.css')?>" />
     <link rel="stylesheet" href="<?= baseUrl('/assets/css/home.css')?>">
     <title>Caffeine Mania | Boba Shop</title>
   </head>

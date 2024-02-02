@@ -1,6 +1,6 @@
 <?php
-include_once('./views/includes/head.php');
-include_once('./views/includes/nav.php');
+    include_once('./views/includes/head.php');
+    include_once('./views/includes/nav.php');
 ?>
 
 <section class="about-us">
@@ -130,31 +130,31 @@ include_once('./views/includes/nav.php');
             </div>
             <div class="step-body">
                 <p class="step-text">
-                    make a account in our website, it´s pretty easy
+                    Make a account in our website, it´s pretty easy
                 </p>
             </div>
         </div>
         <div class="step">
-            <div class="step-header">
+            <div class="step-header step-head-color">
                 <span class="step-title">
                     Step 2
                 </span>
             </div>
             <div class="step-body">
                 <p class="step-text">
-                    make a account in our website, it´s pretty easy
+                    Go to a caffeine boba cat in your city
                 </p>
             </div>
         </div>
         <div class="step">
-            <div class="step-header">
+            <div class="step-header step-head-color">
                 <span class="step-title">
                     Step 3
                 </span>
             </div>
             <div class="step-body">
                 <p class="step-text">
-                    make a account in our website, it´s pretty easy
+                    Show your id for the saller,just to check
                 </p>
             </div>
         </div>
@@ -166,12 +166,12 @@ include_once('./views/includes/nav.php');
             </div>
             <div class="step-body">
                 <p class="step-text">
-                    make a account in our website, it´s pretty easy
+                    Ask for a boba that you like most, after that be happy with your free boba
                 </p>
             </div>
         </div>
     </div>
 </section> 
-</body>
-
-</html>
+<?php
+    include_once('./views/includes/footer.php');
+?>
